@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployMaker", "DeployMaker\DeployMaker.csproj", "{2D47AFA0-AD4C-4CBF-AE6F-8D41F6433547}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployMaker", "src\DeployMaker\DeployMaker.csproj", "{2D47AFA0-AD4C-4CBF-AE6F-8D41F6433547}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{3E4BAC32-4FAD-4538-A01F-F3D599B69A67}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7A56EFAF-E7F5-44A2-A760-9B44BEC15A20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D47AFA0-AD4C-4CBF-AE6F-8D41F6433547} = {7A56EFAF-E7F5-44A2-A760-9B44BEC15A20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4EFC7D1E-08E9-4F94-BCD5-371A17EEC462}
